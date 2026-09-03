@@ -1,1 +1,35 @@
-{}
+{
+  "version": "2.2.0",
+  "tag": "v2.2.0",
+  "requiere_instalador": false,
+  "notas": [
+    "La suite queda atada al equipo (licencia por hardware)",
+    "La licencia se activa con doble clic, sin conocer rutas",
+    "El directorio de despachos se actualiza solo",
+    "Aviso de versiones nuevas",
+    "Corregido: el filtro CC de OD se quedaba sin directorio"
+  ],
+  "apps": {
+    "DM": {
+      "archivo": "DescargarMemoriales.exe",
+      "bytes": 90439168,
+      "sha256": "b1b98227df31284e375f295140a533404932c4acd31167a3b93dcd22e463b081",
+      "firma": "k51JZl6Wg+FPmPBggCxSmCZLrhRyxNKfFcuiE3X2bSGsq963pptvXerZdUtfU4+OC/kcGNHqef0+EUGyQM1uDg==",
+      "url": "https://github.com/jeysonvelasquez51-glitch/jv-herramientas/releases/download/v2.2.0/DescargarMemoriales.exe"
+    },
+    "OD": {
+      "archivo": "OrganizadorDemandas.exe",
+      "bytes": 61299712,
+      "sha256": "07585aa80247025268bd2c5f9b2d12b581a404aab0386658fc2943cd9ee009be",
+      "firma": "WT3whniXtiCHKsikAY5kVvxhrq5mhW33shIIT7zxu6AKwnefdT/i0CpjyzEzuqJELCZUSTRPHQOJlD7fjpTeDg==",
+      "url": "https://github.com/jeysonvelasquez51-glitch/jv-herramientas/releases/download/v2.2.0/OrganizadorDemandas.exe"
+    },
+    "CS": {
+      "archivo": "CargadorSGDE.exe",
+      "bytes": 32460800,
+      "sha256": "6cff1c31cc2af6edb5063f4e9fbfdfd047e5d196b93804adc40b61ca37107121",
+      "firma": "xrcCO7yqnqTrutDCwfSbkkJkEknp3Lp4wHb8TVhAVeGwnnrtOYXItjF5BFkBVU9CM8IOcuYDzZeQY2PHDrR1Cg==",
+      "url": "https://github.com/jeysonvelasquez51-glitch/jv-herramientas/releases/download/v2.2.0/CargadorSGDE.exe"
+    }
+  }
+}
