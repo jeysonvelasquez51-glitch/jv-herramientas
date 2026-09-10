@@ -1,0 +1,93 @@
+ACUERDO DE LICENCIA DE USO — Justicia Virtual · LegalTools
+Autor: Jeyson Velásquez
+================================================================
+
+Lea este acuerdo antes de instalar. Al continuar con la instalación,
+usted acepta los siguientes términos.
+
+1. OBJETO
+   "Justicia Virtual · LegalTools" es una suite de utilidades de apoyo a la
+   gestión documental y de correo electrónico para despachos judiciales.
+   Incluye, entre otras:
+     •  Descargar Memoriales (DM): descarga como .msg los correos de Microsoft
+        Outlook (con filtros por estado/carpeta/categoría), permite marcarlos y,
+        si se indica, los procesa a memoriales en PDF (cuerpo + adjuntos +
+        documentos de portales enlazados).
+     •  Cargador SGDE (CS): sube memoriales y demandas completas al Sistema de
+        Gestión Documental Electrónica (Alfresco SGDE) de la Rama Judicial,
+        crea la estructura del expediente y marca el correo de origen.
+     •  Organizador de Demandas (OD): convierte y organiza correos .msg en
+        PDF (Acta, Escrito y anexos) y los clasifica por radicado.
+   El software se entrega "tal cual", para uso interno del usuario y su
+   despacho.
+
+2. LICENCIA Y ACTIVACIÓN
+   Se concede una licencia personal, no exclusiva e intransferible para instalar
+   y utilizar las herramientas. No está permitida su venta ni su redistribución
+   con fines comerciales sin autorización del autor.
+
+   La licencia queda ATADA AL EQUIPO en el que se activa. Para obtenerla, el
+   usuario comunica al autor el "código de equipo" que la propia herramienta le
+   muestra; ese código es un identificador derivado del hardware y no contiene
+   datos personales. El archivo de licencia recibido solo funciona en ese equipo.
+
+   La licencia puede tener FECHA DE VENCIMIENTO. Al vencer, las herramientas
+   dejan de abrirse hasta que se instale una renovación. Se avisa con antelación
+   y se conceden dos días hábiles de margen tras la fecha de vencimiento, para
+   que un problema de conexión no interrumpa el trabajo.
+
+   Cambiar de equipo requiere una licencia nueva. Reinstalar Windows o cambiar
+   el disco duro NO invalida la licencia existente.
+
+3. REQUISITOS Y COMPONENTES DE TERCEROS
+   Algunas herramientas requieren Microsoft Outlook (versión de escritorio)
+   instalado y configurado; el Cargador SGDE requiere además conexión al
+   servidor de la Rama Judicial. Las herramientas utilizan componentes de
+   terceros de código abierto que el instalador puede descargar e instalar por
+   usted si no están presentes:
+     •  Ghostscript (AGPL)         — compresión y normalización de PDF.
+     •  Tesseract OCR (Apache 2.0), con el idioma español — capa de texto
+        seleccionable sobre páginas escaneadas.
+     •  ffmpeg (LGPL/GPL) — conversión de audio y vídeo del expediente.
+     •  Chromium de Playwright (BSD) — navegador que Descargar Memoriales usa
+        para obtener documentos desde portales web enlazados en los correos. Se
+        instala en la carpeta del usuario (no requiere administrador).
+   Para convertir el cuerpo HTML de los correos a PDF se usa Microsoft Edge en
+   modo headless, ya incluido en Windows 10/11 (no se instala nada). Dichos
+   componentes se rigen por sus propias licencias. La descarga de Ghostscript y
+   Tesseract requiere conexión a internet y permisos de administrador. Las apps
+   de escritorio requieren además que el equipo disponga de "Media Foundation"
+   (en ediciones Windows N/KN, el instalador puede agregar el Media Feature Pack).
+
+   La instalación puede ajustar opciones de Outlook del USUARIO ACTUAL
+   (sincronización en caché y tamaño del archivo de datos) para mejorar el
+   rendimiento; estos cambios no requieren privilegios de administrador y son
+   reversibles desde Outlook.
+
+4. PRIVACIDAD Y CONEXIONES A INTERNET
+   El PROCESAMIENTO es local: los correos, demandas y archivos permanecen en el
+   equipo y en las carpetas que el usuario elija. El software NO envía a
+   terceros el contenido de los correos, los documentos ni los datos de los
+   expedientes, ni recoge estadísticas de uso.
+
+   Las herramientas SÍ realizan estas conexiones salientes:
+     •  A github.com, para comprobar si hay una versión nueva del programa o del
+        directorio de despachos, y para descargarlos. Solo se envía la petición
+        del archivo; no se transmite información del equipo ni del usuario.
+     •  A los portales web enlazados en los correos, cuando el usuario pide
+        descargar sus documentos.
+     •  Al servidor de la Rama Judicial (Alfresco SGDE), al subir documentos.
+   Estas conexiones pueden bloquearse en la red del despacho sin que las
+   herramientas dejen de funcionar: solo se perderán las actualizaciones
+   automáticas.
+
+5. GARANTÍA Y RESPONSABILIDAD
+   El software se proporciona SIN GARANTÍA de ningún tipo. El autor no se hace
+   responsable por pérdidas de datos o daños derivados de su uso. Se recomienda
+   verificar los resultados y mantener respaldos.
+
+6. PROPIEDAD
+   Todos los derechos del software pertenecen a su autor, Jeyson Velásquez.
+
+================================================================
+Si NO está de acuerdo con estos términos, cancele la instalación.

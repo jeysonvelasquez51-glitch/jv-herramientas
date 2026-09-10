@@ -1,0 +1,88 @@
+NOVEDADES  —  Justicia Virtual · LegalTools  (apps 2.2.1)
+=========================================================
+
+Esta entrega actualiza LAS TRES APLICACIONES. La suite (el instalador) pasa a
+2.1.0. Cada herramienta tiene su propia versión y puede subir por separado.
+
+Versiones de esta entrega:
+   -  Descargar Memoriales (DM) ........ 2.2.1
+   -  Cargador SGDE (CS) ............... 2.2.1
+   -  Organizador de Demandas (OD) ..... 2.2.1
+
+
+LA SUITE AHORA NECESITA LICENCIA
+--------------------------------------------------------
+Las herramientas quedan atadas al equipo donde se instalan. La primera vez que
+abra una, le mostrará el "código de este equipo": envíelo al autor y recibirá
+un archivo de licencia.
+
+Activarla no exige conocer ninguna carpeta:
+
+   -  Si guarda el archivo en Descargas, la herramienta lo encuentra sola al
+      abrirse y se activa sin preguntar nada.
+   -  También puede hacer DOBLE CLIC sobre el archivo recibido, esté donde esté.
+   -  O pulsar "Instalar licencia..." en el aviso, y señalarlo.
+
+El botón de la llave, en la barra de título, muestra en cualquier momento su
+código de equipo, el titular de la licencia y hasta cuándo es válida.
+
+Reinstalar Windows o cambiar el disco NO invalida la licencia. Cambiar de
+equipo sí requiere una nueva.
+
+
+EL DIRECTORIO DE DESPACHOS SE ACTUALIZA SOLO
+--------------------------------------------------------
+El directorio (7.697 despachos con sus correos) se actualizaba solo al publicar
+una versión nueva del programa, y no había forma de saber si el suyo estaba
+anticuado.
+
+Ahora el Organizador de Demandas lo comprueba una vez al día y descarga el más
+reciente en segundo plano, sin avisar ni interrumpir. Si no hay conexión, o la
+red del despacho bloquea el acceso, sigue usando el que ya tiene.
+
+
+AVISO DE VERSIONES NUEVAS
+--------------------------------------------------------
+Las herramientas comprueban una vez al día si hay una versión más reciente. Si
+la hay, LO AVISAN Y PREGUNTAN: no se instala nada sin que usted lo acepte. Al
+aceptar, se descarga, se comprueba su firma y la herramienta se reinicia ya
+actualizada.
+
+Si responde "Más tarde", no se le vuelve a preguntar en una semana.
+
+
+CORRECCIONES DE ESTA ENTREGA (2.2.1)
+--------------------------------------------------------
+Dos fallos que solo se manifestaban en la versión compilada y que degradaban en
+silencio, sin dar error:
+
+   -  LA EXPANSIÓN EN PARALELO NO FUNCIONABA. Al procesar varios correos o
+      contenedores a la vez, los procesos auxiliares no llegaban a arrancar y
+      todo se hacía en serie. Afectaba a Descargar Memoriales y al Organizador
+      de Demandas, justo en la etapa más lenta.
+
+   -  LA SEPARACIÓN DE PALABRAS PEGADAS NO HACÍA NADA. El vocabulario que usa
+      (151.264 palabras) no viajaba dentro del programa, así que nombres como
+      "ACTAREPARTO" no se separaban. Afectaba al Organizador de Demandas y al
+      Cargador SGDE.
+
+   -  EL FILTRO CC DEL ORGANIZADOR SE QUEDABA SIN DIRECTORIO. Desde que el
+      directorio pasó a distribuirse cifrado, el programa no lo cargaba y el
+      filtro por despacho dejaba de encontrar correos.
+
+
+ANTES, EN LA 2.2.0
+--------------------------------------------------------
+   -  Los documentos de portales se descargan en su propia subcarpeta, de modo
+      que conservan su orden dentro del memorial.
+   -  Se dejaron de abrir ventanas de consola de Tesseract durante el OCR.
+   -  Los informes en Excel salen con filtros y encabezado fijado.
+   -  Los correos que no se pudieron convertir se apartan en una subcarpeta en
+      vez de mezclarse con los ya procesados.
+
+
+SI ALGO NO FUNCIONA
+--------------------------------------------------------
+Escriba a jeysonvelasquez5.1@gmail.com indicando qué herramienta y qué estaba
+haciendo. Si el problema es de licencia, incluya el código de equipo que
+muestra el botón de la llave.
