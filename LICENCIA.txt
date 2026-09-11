@@ -21,6 +21,21 @@ usted acepta los siguientes términos.
    El software se entrega "tal cual", para uso interno del usuario y su
    despacho.
 
+   Las herramientas se conciben como apoyo a la gestión documental electrónica
+   de los despachos judiciales en el marco de la Ley 2213 de 2022, que adopta
+   con carácter permanente el uso de las tecnologías de la información en las
+   actuaciones judiciales, y del protocolo de gestión de documentos electrónicos
+   de la Rama Judicial (Acuerdo PCSJA20-11567 de 2020). Son instrumentos de
+   apoyo: no sustituyen las decisiones ni las responsabilidades procesales que
+   la ley asigna al despacho.
+
+   Las transformaciones que el software aplica a los documentos —conversión a
+   PDF, reconocimiento óptico de caracteres (OCR), escala de grises,
+   normalización de tamaño y compresión— son las previstas por ese protocolo
+   para la digitalización y conformación del expediente electrónico. En ningún
+   caso se elimina el correo de origen: el mensaje permanece en el buzón del
+   usuario, que conserva así el documento original.
+
 2. LICENCIA Y ACTIVACIÓN
    Se concede una licencia personal, no exclusiva e intransferible para instalar
    y utilizar las herramientas. No está permitida su venta ni su redistribución
@@ -38,6 +53,12 @@ usted acepta los siguientes términos.
 
    Cambiar de equipo requiere una licencia nueva. Reinstalar Windows o cambiar
    el disco duro NO invalida la licencia existente.
+
+   ACCESO LEGÍTIMO. El usuario declara que dispone de autorización para acceder
+   a las cuentas de correo, portales y sistemas con los que utiliza las
+   herramientas, y que su uso se enmarca en las funciones de su despacho. Las
+   herramientas operan con las credenciales que el propio usuario suministra y
+   no eluden mecanismo de autenticación alguno.
 
 3. REQUISITOS Y COMPONENTES DE TERCEROS
    Algunas herramientas requieren Microsoft Outlook (versión de escritorio)
@@ -77,9 +98,23 @@ usted acepta los siguientes términos.
      •  A los portales web enlazados en los correos, cuando el usuario pide
         descargar sus documentos.
      •  Al servidor de la Rama Judicial (Alfresco SGDE), al subir documentos.
-   Estas conexiones pueden bloquearse en la red del despacho sin que las
-   herramientas dejen de funcionar: solo se perderán las actualizaciones
-   automáticas.
+   El bloqueo de estas conexiones en la red del despacho tiene efectos
+   distintos según de cuál se trate:
+     •  Sin acceso a github.com, las herramientas funcionan con normalidad;
+        solo dejan de recibir actualizaciones automáticas. Si la licencia tiene
+        vencimiento, la renovación deberá instalarse a mano.
+     •  Sin acceso a los portales, Descargar Memoriales no podrá obtener los
+        documentos enlazados en los correos.
+     •  Sin acceso al servidor de la Rama Judicial, el Cargador SGDE no podrá
+        subir documentos.
+
+   TRATAMIENTO DE DATOS PERSONALES. Los expedientes que el usuario procesa
+   pueden contener datos personales, pero el autor NO es responsable ni
+   encargado de su tratamiento: el software se ejecuta en el equipo del usuario
+   y los datos no salen de él, salvo hacia los repositorios de la propia Rama
+   Judicial cuando el usuario lo ordena. El autor no accede a esos datos, no los
+   almacena y no opera servidor alguno donde puedan reposar. El responsable del
+   tratamiento sigue siendo el despacho, conforme a la Ley 1581 de 2012.
 
 5. GARANTÍA
    El autor garantiza que el software funciona sustancialmente conforme a lo
