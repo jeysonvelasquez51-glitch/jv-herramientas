@@ -46,10 +46,20 @@ usted acepta los siguientes términos.
    muestra; ese código es un identificador derivado del hardware y no contiene
    datos personales. El archivo de licencia recibido solo funciona en ese equipo.
 
-   La licencia puede tener FECHA DE VENCIMIENTO. Al vencer, las herramientas
-   dejan de abrirse hasta que se instale una renovación. Se avisa con antelación
-   y se conceden dos días hábiles de margen tras la fecha de vencimiento, para
-   que un problema de conexión no interrumpa el trabajo.
+   PLAZO. Toda licencia se expide CON FECHA DE VENCIMIENTO; no se entregan
+   licencias perpetuas. La fecha se pacta al expedirla, va dentro del propio
+   archivo de licencia, y las herramientas la muestran junto con los días que
+   faltan.
+
+   Antes de esa fecha las herramientas avisan con antelación, contada en días
+   hábiles. Pasada la fecha conceden DOS DÍAS HÁBILES de margen, para que un
+   problema de conexión no interrumpa el trabajo. Agotado ese margen dejan de
+   abrirse hasta que se instale una renovación.
+
+   El vencimiento afecta ÚNICAMENTE a la apertura de las herramientas. No afecta
+   a los archivos ya generados —los PDF, los expedientes, los informes— ni al
+   acceso del usuario a sus correos ni a los sistemas de la Rama Judicial, que no
+   dependen de este software.
 
    Cambiar de equipo requiere una licencia nueva. Reinstalar Windows o cambiar
    el disco duro NO invalida la licencia existente.
@@ -70,11 +80,16 @@ usted acepta los siguientes términos.
      •  Tesseract OCR (Apache 2.0), con el idioma español — capa de texto
         seleccionable sobre páginas escaneadas.
      •  ffmpeg (LGPL/GPL) — conversión de audio y vídeo del expediente.
-     •  Chromium de Playwright (BSD) — navegador que Descargar Memoriales usa
-        para obtener documentos desde portales web enlazados en los correos. Se
-        instala en la carpeta del usuario (no requiere administrador).
-   Para convertir el cuerpo HTML de los correos a PDF se usa Microsoft Edge en
-   modo headless, ya incluido en Windows 10/11 (no se instala nada). Dichos
+     •  Motor gráfico de Flet (Apache 2.0) — el que dibuja las ventanas de las
+        herramientas. Se instala en la carpeta del usuario (no requiere
+        administrador).
+
+   Además, las herramientas incorporan Playwright (Apache 2.0) dentro del propio
+   ejecutable, para abrir los portales web enlazados en los correos. Playwright
+   conduce el Microsoft Edge que ya viene con Windows 10/11; sólo si Edge faltara
+   descargaría un navegador propio, cosa que el instalador no hace. Ese mismo
+   Edge, en modo headless, es el que convierte a PDF el cuerpo HTML de los
+   correos. No se instala ningún navegador adicional. Dichos
    componentes se rigen por sus propias licencias. La descarga de Ghostscript y
    Tesseract requiere conexión a internet y permisos de administrador. Las apps
    de escritorio requieren además que el equipo disponga de "Media Foundation"
