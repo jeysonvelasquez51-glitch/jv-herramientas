@@ -1,13 +1,42 @@
-NOVEDADES  —  Justicia Virtual · LegalTools  (apps 2.2.1)
+NOVEDADES  —  Justicia Virtual · LegalTools  (suite 2.2.1)
 =========================================================
 
-Esta entrega actualiza LAS TRES APLICACIONES. La suite (el instalador) pasa a
-2.1.0. Cada herramienta tiene su propia versión y puede subir por separado.
+Esta entrega cambia EL INSTALADOR. Las tres aplicaciones siguen en 2.2.1: si ya
+las tiene instaladas y al día, no necesita hacer nada.
 
-Versiones de esta entrega:
-   -  Descargar Memoriales (DM) ........ 2.2.1
-   -  Cargador SGDE (CS) ............... 2.2.1
-   -  Organizador de Demandas (OD) ..... 2.2.1
+Versiones:
+   -  Suite / instalador .............. 2.2.1   <- nuevo
+   -  Descargar Memoriales (DM) ....... 2.2.1
+   -  Cargador SGDE (CS) .............. 2.2.1
+   -  Organizador de Demandas (OD) .... 2.2.1
+
+
+INSTALADOR NUEVO
+--------------------------------------------------------
+Se llama "JusticiaVirtual-Instalador.exe" y ocupa unos 620 KB, en vez de los
+180 MB del anterior. No lleva las herramientas dentro: las descarga, y descarga
+SOLO lo que falte en ese equipo. Si ya tiene Ghostscript o el OCR, no los vuelve
+a bajar.
+
+Durante la instalacion vera, para cada componente, en que va la descarga: el
+porcentaje, los megas, la velocidad y el tiempo que queda. El detalle tecnico
+esta plegado tras el boton "Ver detalles", por si hace falta revisarlo.
+
+Pide permiso de administrador UNA sola vez, y solo si hay que instalar
+Ghostscript o el OCR. El desinstalador ahora permite retirar tambien esos dos
+por separado, y el navegador de los portales (que ocupa mas de 1 GB).
+
+
+SI EL ANTIVIRUS BLOQUEA UNA HERRAMIENTA
+--------------------------------------------------------
+Windows Defender puede marcar "DescargarMemoriales.exe" como sospechoso. Es un
+FALSO POSITIVO: le ocurre a los programas compilados que aun no tienen firma
+digital, y no significa que el archivo este danado ni alterado.
+
+Si pasa, el instalador se lo dira con esas palabras. Para resolverlo, abra
+Seguridad de Windows > Proteccion antivirus y contra amenazas > Historial de
+proteccion, restaure el elemento y anada una exclusion para la carpeta de la
+suite. Se esta tramitando la firma digital para que deje de ocurrir.
 
 
 LA SUITE AHORA NECESITA LICENCIA

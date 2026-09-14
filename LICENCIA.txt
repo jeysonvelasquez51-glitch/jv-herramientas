@@ -148,8 +148,8 @@ usted acepta los siguientes términos.
    La garantía no cubre:
      •  el uso del software fuera de lo previsto en este acuerdo;
      •  fallos originados en componentes de terceros (Ghostscript, Tesseract,
-        ffmpeg, Chromium, Microsoft Outlook o el servidor de la Rama Judicial),
-        que se rigen por sus propias condiciones;
+        ffmpeg, Microsoft Edge, Microsoft Outlook o el servidor de la Rama
+        Judicial), que se rigen por sus propias condiciones;
      •  resultados derivados de datos de entrada incorrectos o incompletos
         suministrados por el usuario.
 
