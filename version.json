@@ -1,0 +1,44 @@
+{
+  "version": "2.2.1",
+  "tag": "v2.2.1",
+  "requiere_instalador": false,
+  "notas": [
+    "Correcciones de fallos que solo se manifestaban en la version compilada."
+  ],
+  "apps": {
+    "DM": {
+      "archivo": "DescargarMemoriales.exe",
+      "bytes": 90462208,
+      "sha256": "08322ff0e3d5843cea4bd78deadcb13da5a8fc5ad623f05892e6b20d55ca0fe8",
+      "firma": "WojKKXBJgwMRUSWhPUvuzVsSjQnMrSCXy+M6iCQSSgZN9tzdpI3LUdm9iToAEg0Dr7dOREvrnQEXchICWLb/Cw==",
+      "nombre": "Descargar Memoriales",
+      "detalle": "Descarga como .msg los correos de Outlook (por estado, carpeta o categoría) y los convierte en memoriales PDF: cuerpo, adjuntos y documentos de portales, unificados y en orden.\n\nUsa Microsoft Edge para los portales, que ya viene con Windows.",
+      "url": "https://github.com/jeysonvelasquez51-glitch/jv-herramientas/releases/download/v2.2.1/DescargarMemoriales.exe"
+    },
+    "OD": {
+      "archivo": "OrganizadorDemandas.exe",
+      "bytes": 62068224,
+      "sha256": "2c6b66646f5a4bd82d2d9740ea65bc7e20c378823bb6141c8f6d35e218967770",
+      "firma": "rPO+/h+ziVzWojZQozl+gaounyvRYztaZMP/YTvwo93x6CGnIkbKT66VY28YC8WE1BdoON84oz44Lv/CECPvDA==",
+      "nombre": "Organizador de Demandas",
+      "detalle": "Convierte los .msg de reparto en el expediente: un PDF por demanda, cuadernos canonizados y el radicado aplicado desde el Excel de reparto.\n\nGhostscript y Tesseract solo si activa compresión u OCR.",
+      "url": "https://github.com/jeysonvelasquez51-glitch/jv-herramientas/releases/download/v2.2.1/OrganizadorDemandas.exe"
+    },
+    "CS": {
+      "archivo": "CargadorSGDE.exe",
+      "bytes": 33222144,
+      "sha256": "cf9f7f4b2abf7925e5d909fb5f7fc51ebc1ac3599c75c0a22b314e6860603805",
+      "firma": "oZUX01jwbPxgnLN+Wli8+25rIMbisU1RAH+ush0g0HTk4igfKwknxMNbgT9d6D9PTnVIvtLKFoc0BMBBQrG1Cw==",
+      "nombre": "Cargador SGDE",
+      "detalle": "Sube memoriales y demandas completas a Alfresco (SGDE de la Rama Judicial) con sus metadatos, y marca en Outlook los correos ya tramitados.\n\nNecesita sus credenciales del SGDE.",
+      "url": "https://github.com/jeysonvelasquez51-glitch/jv-herramientas/releases/download/v2.2.1/CargadorSGDE.exe"
+    }
+  },
+  "instalador": {
+    "archivo": "JusticiaVirtual-Instalador.exe",
+    "bytes": 765259,
+    "sha256": "c8a3c4a3397363166f94ed7ec89f6855124a427e572a8accac0c91b173c4fa49",
+    "firma": "ocjqmVvyGIAKw5LcBlFn3mSGvbpPpwhHvd2mtAmV1kFqAl+X2XQ9o1olPbcytksoZhuaD3CVZ3fiUyCKpRa9AQ==",
+    "url": "https://raw.githubusercontent.com/jeysonvelasquez51-glitch/jv-herramientas/main/JusticiaVirtual-Instalador.exe"
+  }
+}

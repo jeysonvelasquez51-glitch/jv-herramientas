@@ -1,0 +1,212 @@
+ACUERDO DE LICENCIA DE USO — Justicia Virtual · LegalTools
+Autor: Jeyson Velásquez
+================================================================
+
+Lea este acuerdo antes de instalar. Al continuar con la instalación,
+usted acepta los siguientes términos.
+
+1. OBJETO
+   "Justicia Virtual · LegalTools" es una suite de utilidades de apoyo a la
+   gestión documental y de correo electrónico para despachos judiciales.
+   Incluye, entre otras:
+     •  Descargar Memoriales (DM): descarga como .msg los correos de Microsoft
+        Outlook (con filtros por estado/carpeta/categoría), permite marcarlos y,
+        si se indica, los procesa a memoriales en PDF (cuerpo + adjuntos +
+        documentos de portales enlazados).
+     •  Cargador SGDE (CS): sube memoriales y demandas completas al Sistema de
+        Gestión Documental Electrónica (Alfresco SGDE) de la Rama Judicial,
+        crea la estructura del expediente y marca el correo de origen.
+     •  Organizador de Demandas (OD): convierte y organiza correos .msg en
+        PDF (Acta, Escrito y anexos) y los clasifica por radicado.
+   El software se entrega "tal cual", para uso interno del usuario y su
+   despacho.
+
+   Las herramientas se conciben como apoyo a la gestión documental electrónica
+   de los despachos judiciales en el marco de la Ley 2213 de 2022, que adopta
+   con carácter permanente el uso de las tecnologías de la información en las
+   actuaciones judiciales, y del protocolo de gestión de documentos electrónicos
+   de la Rama Judicial (Acuerdo PCSJA20-11567 de 2020). Son instrumentos de
+   apoyo: no sustituyen las decisiones ni las responsabilidades procesales que
+   la ley asigna al despacho.
+
+   Las transformaciones que el software aplica a los documentos —conversión a
+   PDF, reconocimiento óptico de caracteres (OCR), escala de grises,
+   normalización de tamaño y compresión— son las previstas por ese protocolo
+   para la digitalización y conformación del expediente electrónico. En ningún
+   caso se elimina el correo de origen: el mensaje permanece en el buzón del
+   usuario, que conserva así el documento original.
+
+2. LICENCIA Y ACTIVACIÓN
+   Se concede una licencia personal, no exclusiva e intransferible para instalar
+   y utilizar las herramientas. No está permitida su venta ni su redistribución
+   con fines comerciales sin autorización del autor.
+
+   La licencia queda ATADA AL EQUIPO en el que se activa. Para obtenerla, el
+   usuario comunica al autor el "código de equipo" que la propia herramienta le
+   muestra; ese código es un identificador derivado del hardware y no contiene
+   datos personales. El archivo de licencia recibido solo funciona en ese equipo.
+
+   PLAZO. Toda licencia se expide CON FECHA DE VENCIMIENTO; no se entregan
+   licencias perpetuas. La fecha se pacta al expedirla, va dentro del propio
+   archivo de licencia, y las herramientas la muestran junto con los días que
+   faltan.
+
+   Antes de esa fecha las herramientas avisan con antelación, contada en días
+   hábiles. Pasada la fecha conceden DOS DÍAS HÁBILES de margen, para que un
+   problema de conexión no interrumpa el trabajo. Agotado ese margen dejan de
+   abrirse hasta que se instale una renovación.
+
+   El vencimiento afecta ÚNICAMENTE a la apertura de las herramientas. No afecta
+   a los archivos ya generados —los PDF, los expedientes, los informes— ni al
+   acceso del usuario a sus correos ni a los sistemas de la Rama Judicial, que no
+   dependen de este software.
+
+   Cambiar de equipo requiere una licencia nueva. Reinstalar Windows o cambiar
+   el disco duro NO invalida la licencia existente.
+
+   ACCESO LEGÍTIMO. El usuario declara que dispone de autorización para acceder
+   a las cuentas de correo, portales y sistemas con los que utiliza las
+   herramientas, y que su uso se enmarca en las funciones de su despacho. Las
+   herramientas operan con las credenciales que el propio usuario suministra y
+   no eluden mecanismo de autenticación alguno.
+
+3. REQUISITOS Y COMPONENTES DE TERCEROS
+   Algunas herramientas requieren Microsoft Outlook (versión de escritorio)
+   instalado y configurado; el Cargador SGDE requiere además conexión al
+   servidor de la Rama Judicial. Las herramientas utilizan componentes de
+   terceros de código abierto que el instalador puede descargar e instalar por
+   usted si no están presentes:
+     •  Ghostscript (AGPL)         — compresión y normalización de PDF.
+     •  Tesseract OCR (Apache 2.0), con el idioma español — capa de texto
+        seleccionable sobre páginas escaneadas.
+     •  ffmpeg (LGPL/GPL) — conversión de audio y vídeo del expediente.
+     •  Motor gráfico de Flet (Apache 2.0) — el que dibuja las ventanas de las
+        herramientas. Se instala en la carpeta del usuario (no requiere
+        administrador).
+
+   Además, las herramientas incorporan Playwright (Apache 2.0) dentro del propio
+   ejecutable, para abrir los portales web enlazados en los correos. Playwright
+   conduce el Microsoft Edge que ya viene con Windows 10/11; sólo si Edge faltara
+   descargaría un navegador propio, cosa que el instalador no hace. Ese mismo
+   Edge, en modo headless, es el que convierte a PDF el cuerpo HTML de los
+   correos. No se instala ningún navegador adicional. Dichos
+   componentes se rigen por sus propias licencias. La descarga de Ghostscript y
+   Tesseract requiere conexión a internet y permisos de administrador. Las apps
+   de escritorio requieren además que el equipo disponga de "Media Foundation"
+   (en ediciones Windows N/KN, el instalador puede agregar el Media Feature Pack).
+
+   La instalación puede ajustar opciones de Outlook del USUARIO ACTUAL
+   (sincronización en caché y tamaño del archivo de datos) para mejorar el
+   rendimiento; estos cambios no requieren privilegios de administrador y son
+   reversibles desde Outlook.
+
+4. PRIVACIDAD Y CONEXIONES A INTERNET
+   El PROCESAMIENTO es local: los correos, demandas y archivos permanecen en el
+   equipo y en las carpetas que el usuario elija. El software NO envía a
+   terceros el contenido de los correos, los documentos ni los datos de los
+   expedientes, ni recoge estadísticas de uso.
+
+   Las herramientas SÍ realizan estas conexiones salientes:
+     •  A github.com, para comprobar si hay una versión nueva del programa o del
+        directorio de despachos, y para descargarlos. Solo se envía la petición
+        del archivo; no se transmite información del equipo ni del usuario.
+     •  A los portales web enlazados en los correos, cuando el usuario pide
+        descargar sus documentos.
+     •  Al servidor de la Rama Judicial (Alfresco SGDE), al subir documentos.
+   El bloqueo de estas conexiones en la red del despacho tiene efectos
+   distintos según de cuál se trate:
+     •  Sin acceso a github.com, las herramientas funcionan con normalidad;
+        solo dejan de recibir actualizaciones automáticas. Si la licencia tiene
+        vencimiento, la renovación deberá instalarse a mano.
+     •  Sin acceso a los portales, Descargar Memoriales no podrá obtener los
+        documentos enlazados en los correos.
+     •  Sin acceso al servidor de la Rama Judicial, el Cargador SGDE no podrá
+        subir documentos.
+
+   TRATAMIENTO DE DATOS PERSONALES. Los expedientes que el usuario procesa
+   pueden contener datos personales, pero el autor NO es responsable ni
+   encargado de su tratamiento: el software se ejecuta en el equipo del usuario
+   y los datos no salen de él, salvo hacia los repositorios de la propia Rama
+   Judicial cuando el usuario lo ordena. El autor no accede a esos datos, no los
+   almacena y no opera servidor alguno donde puedan reposar. El responsable del
+   tratamiento sigue siendo el despacho, conforme a la Ley 1581 de 2012.
+
+5. GARANTÍA
+   El autor garantiza que el software funciona sustancialmente conforme a lo
+   descrito en este acuerdo y en la documentación que lo acompaña.
+
+   Esta garantía convencional se entiende SIN PERJUICIO de la garantía legal
+   prevista en la Ley 1480 de 2011 (Estatuto del Consumidor), que resulta
+   aplicable y que las partes no pueden excluir ni limitar por acuerdo.
+
+   Ante un defecto reproducible que impida el uso normal de una herramienta, el
+   autor se obliga a corregirlo en un plazo razonable y a poner la corrección a
+   disposición del usuario sin costo adicional, o —si la corrección no fuera
+   posible— a reembolsar la parte proporcional de lo pagado por el período no
+   disfrutado.
+
+   La garantía no cubre:
+     •  el uso del software fuera de lo previsto en este acuerdo;
+     •  fallos originados en componentes de terceros (Ghostscript, Tesseract,
+        ffmpeg, Microsoft Edge, Microsoft Outlook o el servidor de la Rama
+        Judicial), que se rigen por sus propias condiciones;
+     •  resultados derivados de datos de entrada incorrectos o incompletos
+        suministrados por el usuario.
+
+   DEBER DE VERIFICACIÓN. El software automatiza tareas documentales, no las
+   sustituye. Dado que su uso se da en actuaciones judiciales sujetas a
+   términos, el usuario debe revisar los documentos generados antes de
+   incorporarlos a un expediente o remitirlos, y conservar respaldo de los
+   archivos de origen. El autor recomienda expresamente no suprimir los correos
+   ni los archivos originales hasta haber verificado el resultado.
+
+6. LIMITACIÓN DE RESPONSABILIDAD
+   El autor responderá por los perjuicios directos que se acrediten y que sean
+   imputables a un defecto del software.
+
+   Salvo en los casos de DOLO O CULPA GRAVE —en los que, conforme al artículo
+   1522 del Código Civil, no cabe exoneración anticipada— y salvo lo que
+   disponga imperativamente el Estatuto del Consumidor, la responsabilidad
+   total del autor se limita al valor que el usuario haya pagado por la licencia
+   durante los doce (12) meses anteriores al hecho que origina la reclamación.
+
+   Dentro de ese mismo límite, el autor no responderá por perjuicios indirectos
+   tales como lucro cesante, pérdida de oportunidad o daño reputacional.
+
+   Ninguna cláusula de este acuerdo excluye la responsabilidad que la ley
+   colombiana no permite excluir.
+
+7. CONTINUIDAD DEL SERVICIO
+   Las herramientas requieren una licencia vigente para funcionar y dejan de
+   abrirse cuando esta vence. Para que esa condición no se convierta en una
+   interrupción del servicio, ambas partes asumen compromisos.
+
+   EL AUTOR se obliga a:
+     •  Avisar del vencimiento con antelación dentro de la propia herramienta y
+        conceder dos (2) días hábiles de margen posteriores a la fecha de
+        vencimiento.
+     •  Emitir la renovación EL MISMO DÍA en que se acredite el pago, dentro de
+        la jornada laboral. Un despacho judicial no puede quedar sin trabajar por
+        una demora en la emisión.
+
+   EL USUARIO se obliga a:
+     •  Efectuar el pago con antelación suficiente al vencimiento y comunicarlo
+        al autor. El margen de dos días hábiles cubre imprevistos de conexión o
+        de trámite, no la falta de pago oportuno.
+
+   DESCONTINUACIÓN DEL PRODUCTO. Si el autor decidiera dejar de desarrollar o
+   comercializar el software, entregará sin costo, a los usuarios con licencia
+   vigente en ese momento, una licencia con cuatro (4) meses de validez para la
+   versión que tengan instalada. Ese plazo se concede para que el despacho pueda
+   organizar su trabajo sin la herramienta; no constituye cesión del software ni
+   de su código fuente, cuya propiedad se rige por el numeral 8.
+
+   El bloqueo por vencimiento no afecta a los archivos ya generados, que
+   permanecen en el equipo del usuario y son de su propiedad. Tampoco impide
+   acceder a ellos por los medios ordinarios del sistema operativo.
+
+8. PROPIEDAD
+   Todos los derechos del software pertenecen a su autor, Jeyson Velásquez.
+
+================================================================
+Si NO está de acuerdo con estos términos, cancele la instalación.
